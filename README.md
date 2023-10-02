@@ -11,6 +11,23 @@ Polling-Application
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+**#How to Run Project**
+1. Download Project using Cli or .zip File
+2. Unzip & Go insdie project Folder **RUN** **composer install**
+3. Now Rename .env.example to .env
+4. Setup you databse in .env and change App Name to Polling-App
+5. Now RUN **php artisan key:generate**
+6. Next Run **php artisan migrate:fresh --seed**
+7. Run **npm install && npm run dev**
+8. Run **php artisan serve**
+
+   Testing User Credentials
+    username: test@gmail.com
+    password:  1234578
+or 
+    create new user
+
+   
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
