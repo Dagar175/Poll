@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.dropdown-menu-end[data-bs-popper] {
+    right: 10%;
+    left: auto;
+    top: 70%;
+}
