@@ -17,7 +17,7 @@ class PollController extends Controller
 
        $poll->options()->createMany($request->options);
 
-       return back();
+       return back()->with('success', 'Poll created Successfully!');
     }
 
     public function show(Poll $poll){
